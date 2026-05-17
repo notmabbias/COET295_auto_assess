@@ -16,7 +16,7 @@ A lightweight, Flask-based diagnostic tool that cross-references vehicle specifi
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/yourusername/auto-assess.git](https://github.com/yourusername/auto-assess.git)
+git clone https://github.com/notmabbias/auto-assess.git
 cd auto-assess
 ```
 
