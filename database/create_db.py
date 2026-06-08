@@ -67,8 +67,8 @@ def initalize_database():
     ''')
 
     conn.commit()
-    print(f"Database successfully initialized at: {DB_PATH}")
+    print(f"Database successfully initalized at: {DB_PATH}")
     conn.close()
 
-if __name__ == "__main__": # ensure that initialize is only run once
-    initalize_database()
+if __name__ == "__main__": # ensure that inialize is only run once
+    initalize_database() 
