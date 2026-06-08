@@ -16,7 +16,7 @@ A lightweight, Flask-based diagnostic tool that cross-references vehicle specifi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/notmabbias/auto-assess.git
+git clone [https://github.com/notmabbias/auto-assess.git](https://github.com/notmabbias/auto-assess.git)
 cd auto-assess
 ```
 
@@ -31,7 +31,17 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Set your OpenAI API key:
+```bash
+export OPENAI_API_KEY='your-api-key-here'
+```
+
+5. Initialize the database:
+```bash
+python3 database/create_db.py
+```
+
+6. Run the application:
 ```bash
 flask run
 ```
